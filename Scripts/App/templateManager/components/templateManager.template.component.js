@@ -23,7 +23,8 @@ var TemplateManagerTemplateComponent = (function () {
     function TemplateManagerTemplateComponent(routerService) {
         this.routerService = routerService;
         this.programs = [
-            new program_1.Program("DDD", "TestProgram1", "Some code1", [new status_1.Status("TestStatus11"), new status_1.Status("TestStatus12"), new status_1.Status("TestStatus13")]),
+            new program_1.Program("DDD", "TestProgram1", "Some code1", [new status_1.Status("TestStatus1111"), new status_1.Status("TestStatus12"), new status_1.Status("TestStatus13"), new status_1.Status("TestStatus14"), new status_1.Status("TestStatus15"), new status_1.Status("TestStatus16"),
+                new status_1.Status("TestStatus17"), new status_1.Status("TestStatus18"), new status_1.Status("TestStatus19"), new status_1.Status("TestStatus110")]),
             new program_1.Program("EEE", "TestProgram2", "Some code2", [new status_1.Status("TestStatus21"), new status_1.Status("TestStatus22"), new status_1.Status("TestStatus23")]),
             new program_1.Program("CCC", "TestProgram3", "Some code3", [new status_1.Status("TestStatus31"), new status_1.Status("TestStatus32"), new status_1.Status("TestStatus33")])
         ];

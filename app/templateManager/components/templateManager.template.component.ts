@@ -33,7 +33,8 @@ export class TemplateManagerTemplateComponent {
         new Program("DDD",
             "TestProgram1",
             "Some code1",
-            [new Status("TestStatus11"), new Status("TestStatus12"), new Status("TestStatus13")]),
+            [new Status("TestStatus1111"), new Status("TestStatus12"), new Status("TestStatus13"), new Status("TestStatus14"), new Status("TestStatus15"), new Status("TestStatus16")
+                , new Status("TestStatus17"), new Status("TestStatus18"), new Status("TestStatus19"), new Status("TestStatus110")]),
         new Program("EEE",
             "TestProgram2",
             "Some code2",
